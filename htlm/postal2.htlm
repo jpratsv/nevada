@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nieve</title>
+        <style>
+            .floc {
+            position: fixed;
+            color: red;
+            top: 0%;
+            }
+        </style>
+    </head>
+    <body>
+
+        <span  class="floc">❄</span>
+
+
+        <script>
+
+            let floc = document.querySelector('.floc');
+            floc.style.top = '-10%';
+
+
+            
+            set Interval(() => {
+                incrementa(5 * Math.random());
+            }, 1000);
+
+            function incrementa(quantitat){
+                let top = parseInt(floc.style.top)
+                floc.style.top= top + quantitat + '%';
+                
+                if (top + quantitat >= 100)
+                    floc.style.top = '-10%';
+
+            }
+
+        </script>
+    </body>
+</html>
