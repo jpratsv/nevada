@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nevada/static/css/main.c299faf9.css",
+    "main.js": "/nevada/static/js/main.c4830bb7.js",
+    "static/js/787.3a220780.chunk.js": "/nevada/static/js/787.3a220780.chunk.js",
+    "index.html": "/nevada/index.html",
+    "main.c299faf9.css.map": "/nevada/static/css/main.c299faf9.css.map",
+    "main.c4830bb7.js.map": "/nevada/static/js/main.c4830bb7.js.map",
+    "787.3a220780.chunk.js.map": "/nevada/static/js/787.3a220780.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c299faf9.css",
+    "static/js/main.c4830bb7.js"
+  ]
+}
